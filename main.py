@@ -2,7 +2,7 @@ class Principal:
     def __init__(self) -> None:
         pass
 while True:
-    teste = input("Olá, sou o programa do Felipe. Você deseja converter temperaturas? Se sim, digite 1. Se não, digite 0: ")
+    teste = input("Olá, sou o programa do Felipe. Você deseja converter temperaturas? \n0. Não\n1. Sim \n")
     if teste in ["0", "1"]:
         break
     else:
@@ -14,13 +14,13 @@ if teste == "1":
     from temperatura import Temperatura
 elif teste == "0":
     while True:
-        oi = input("Você não optou por converter temperaturas. Deseja converter medidas? Se sim, digite 'Medidas' se quer encerrar o programa digite 'Encerrar': ").capitalize()
-        if oi in ["Medidas", "Encerrar"]:
+        oi = input("Você não optou por converter temperaturas. Deseja converter medidas? \n1. Sim \n2. Encerrar programa:\n").capitalize()
+        if oi in ["1", "2"]:
     
             break
         else:
             print("Digite uma opção válida")
-    if oi == "Medidas":
+    if oi == "1":
         from cmparam import ConversorMedidas
-    elif oi == "Encerrar":
+    elif oi == "2":
         print("Programa encerrado")
