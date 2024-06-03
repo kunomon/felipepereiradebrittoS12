@@ -2,7 +2,7 @@ class Principal:
     def __init__(self) -> None:
         pass
 while True:
-    teste = input("Olá, sou o programa do Felipe.\n Você deseja converter temperaturas? \n0. Não\n1. Sim \n")
+    teste = input("Olá, sou o programa do Felipe.\nVocê deseja converter temperaturas? \n0. Não\n1. Sim \n")
     if teste in ["0", "1"]:
         break
     else:

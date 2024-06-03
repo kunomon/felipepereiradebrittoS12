@@ -22,7 +22,7 @@ elif converter == "2":
     print(f"A temperatura convertida é {fahrenheit:.2f} graus Fahrenheit.")
 
 while True:
-    teste2 = input("Deseja voltar para a tela inicial?\n1. Voltar para a tela inicial\n2. Encerrar o programa ")
+    teste2 = input("Deseja voltar para a tela inicial?\n1. Voltar para a tela inicial\n2. Encerrar o programa\n")
     if teste2 in ["0", "1"]:
         break
     else:
