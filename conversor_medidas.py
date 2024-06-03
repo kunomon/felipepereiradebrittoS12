@@ -18,7 +18,7 @@ elif converter1 == "2":
     print(f"O valor convertido é {conversor2} metros.")
 
 while True:
-    teste2 = input("Programa encerrado. Deseja voltar para a tela inicial?\n0. Encerrar programa\n1. Voltar para tela inicial ")
+    teste2 = input("Programa encerrado. Deseja voltar para a tela inicial?\n0. Encerrar programa\n1. Voltar para tela ")
     if teste2 in ["0", "1"]:
         break
     else:

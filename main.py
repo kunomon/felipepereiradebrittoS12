@@ -11,7 +11,7 @@ while True:
 input("Pressione Enter para continuar...")
 
 if teste == "1":
-    from temperatura import Temperatura
+    from conversor_temperatura import Temperatura
 elif teste == "0":
     while True:
         oi = input("Você não optou por converter temperaturas. Deseja converter medidas? \n1. Sim \n2. Encerrar programa:\n").capitalize()
@@ -21,6 +21,6 @@ elif teste == "0":
         else:
             print("Digite uma opção válida")
     if oi == "1":
-        from cmparam import ConversorMedidas
+        from conversor_medidas import ConversorMedidas
     elif oi == "2":
         print("Programa encerrado")
