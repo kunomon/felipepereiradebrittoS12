@@ -9,6 +9,7 @@ while True:
   else:
       print("Opção inválida. Por favor, escolha 1 ou 2.")
 
+input("Pressione Enter para continuar...")
 
 if converter1 == "1":
     conversor1 = float(input("Digite os metros que deseja converter para centímetros:\n")) * 100
@@ -18,7 +19,7 @@ elif converter1 == "2":
     print(f"O valor convertido é {conversor2} metros.")
 
 while True:
-    teste2 = input("Programa encerrado. Deseja voltar para a tela inicial?\n0. Encerrar programa\n1. Voltar para tela ")
+    teste2 = input("Programa encerrado. Deseja voltar para a tela inicial?\n0. Encerrar programa\n1. Voltar para tela inicial")
     if teste2 in ["0", "1"]:
         break
     else:
