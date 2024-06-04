@@ -30,4 +30,5 @@ while True:
 if teste2 == "2":
     print("Programa encerrado.")
 elif teste2 == "1":
-    import main
+  import limpartexto
+  import main 
