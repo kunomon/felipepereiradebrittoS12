@@ -3,12 +3,12 @@ class Principal:
         pass
 
     while True:
-        teste = input("Olá, sou o programa do Felipe, o que você deseja fazer?\n0. Deseja converter medidas?\n1. Deseja converter temperaturas?\n2. Encerrar programa?\n")
-        if teste == "0":
+        teste = input("Olá, sou o programa do Felipe, o que você deseja fazer?\n1. Deseja converter medidas?\n2. Deseja converter temperaturas?\n3. Encerrar programa?\n")
+        if teste == "1":
             import conversor_medidas
-        elif teste == "1":
-            import conversor_temperatura
         elif teste == "2":
+            import conversor_temperatura
+        elif teste == "3":
             print("Programa encerrado.")
             break
         else:
