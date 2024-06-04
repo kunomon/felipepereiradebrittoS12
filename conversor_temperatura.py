@@ -8,8 +8,13 @@ while True:
         break
     else:
         print("Opção inválida. Por favor, escolha 1 ou 2.")
-
-input("Pressione Enter para continuar...")
+    
+while True:
+    oi2 = input("Pressione Enter para continuar...")
+    if oi2 == "":
+        break
+    else:
+        print("Por favor, pressione apenas 'Enter'.")
 
 if converter == "1":
     fahrenheit = float(input("Digite a temperatura em Fahrenheit:\n"))

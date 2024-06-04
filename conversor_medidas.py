@@ -1,10 +1,6 @@
-
-
 class ConversorMedidas:
-    def _init_(self) -> None:
+    def __init__(self) -> None:
         pass
-
-
 
 while True:
     converter1 = input("Qual opção você deseja?\n1. Converter metros para centímetros\n2. Converter centímetros para metros\n")
@@ -13,7 +9,12 @@ while True:
     else:
         print("Opção inválida. Por favor, escolha 1 ou 2.")
 
-input("Pressione Enter para continuar...")
+while True:
+    oi2 = input("Pressione Enter para continuar...")
+    if oi2 == "":
+        break
+    else:
+        print("Por favor, pressione apenas 'Enter'.")
 
 if converter1 == "1":
     conversor1 = float(input("Digite os metros que deseja converter para centímetros:\n")) * 100
@@ -27,7 +28,7 @@ while True:
     if teste2 in ["2", "1"]:
         break
     else:
-        print("Selecione uma opção válida")
+        print("Selecione uma opção válida.")
 if teste2 == "2":
     print("Programa encerrado.")
     exit()

@@ -14,4 +14,7 @@ class Principal:
             break
         else:
             print("Digite uma opção válida")
-            input("Pressione Enter para continuar...")
+            while True:
+             oi2 = input("Pressione Enter para continuar...")
+             if oi2 == int and float:
+                 print("Por favor digite apenas 'Enter'")
