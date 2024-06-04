@@ -4,7 +4,7 @@ class Temperatura:
 
 
 while True:
-    converter = input("Qual opção você deseja?\n1.0 Converter de Fahrenheit para Celsius\n2. Converter de Celsius para Fahrenheit\n")
+    converter = input("Qual opção você deseja?\n1. Converter de Fahrenheit para Celsius.\n2. Converter de Celsius para Fahrenheit.\n")
     if converter in ["1", "2"]:
         break
     else:
