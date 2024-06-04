@@ -1,7 +1,6 @@
 class Temperatura:
-    def __init__(self) -> None:
+    def _init_(self) -> None:
         pass
-
 
 while True:
     converter = input("Qual opção você deseja?\n1. Converter de Fahrenheit para Celsius.\n2. Converter de Celsius para Fahrenheit.\n")
@@ -23,13 +22,12 @@ elif converter == "2":
 
 while True:
     teste2 = input("Deseja voltar para a tela inicial?\n1. Voltar para a tela inicial\n2. Encerrar o programa\n")
-    if teste2 in ["0", "1"]:
+    if teste2 in ["1", "2"]:
         break
     else:
         print("Selecione uma opção válida")
 
-if teste2 == "0":
+if teste2 == "2":
     print("Programa encerrado.")
 elif teste2 == "1":
-    input("Pressione Enter para continuar...")
-import main
+    import main
