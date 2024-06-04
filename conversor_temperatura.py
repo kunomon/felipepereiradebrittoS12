@@ -26,9 +26,9 @@ while True:
         break
     else:
         print("Selecione uma opção válida")
-
 if teste2 == "2":
     print("Programa encerrado.")
+    exit()
 elif teste2 == "1":
-  import limpartexto
-  import main 
+    import limpartexto
+    import main

@@ -1,3 +1,4 @@
+import limpartexto
 class Principal:
     def _init_(self) -> None:
         pass
